@@ -1,0 +1,40 @@
+{
+  "name": "sample",
+  "priority": 10,
+  "tags": [
+    "smartseq2"
+  ],
+  "shortLabel": "CellBrowser 100-genes demo",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "geneIdType": "symbol/gencode24",
+  "meta": "meta.tsv",
+  "enumFields": [
+    "c1_cell_id"
+  ],
+  "coords": [
+    {
+      "shortLabel": "t-SNE on WGCNA",
+      "file": "/mnt/c/Users/cholo/Desktop/Summer Files/edgar_2020/mini/mini/tsne.coords.tsv"
+    }
+  ],
+  "clusterField": "WGCNAcluster",
+  "labelField": "WGCNAcluster",
+  "markers": [
+    {
+      "shortLabel": "Cluster-specific markers",
+      "file": "/mnt/c/Users/cholo/Desktop/Summer Files/edgar_2020/mini/mini/markers.tsv"
+    }
+  ],
+  "hubUrl": "http://cells.ucsc.edu/cortex-dev/hub/hub.txt",
+  "colors": "colors.tsv",
+  "showLabels": true,
+  "radius": 5,
+  "alpha": 0.3,
+  "acroFname": "acronyms.tsv",
+  "quickGenesFile": "quickGenes.csv",
+  "hubName": "100 Genes Sample Hub",
+  "ucscDb": "hg38",
+  "bamDir": "bam",
+  "unit": "TPM",
+  "inDir": ""
+}
