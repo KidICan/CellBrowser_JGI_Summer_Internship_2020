@@ -1,0 +1,3 @@
+chrom	intron_start	intron_end	strand	uniq_mapped_count	multi_mapped_count	unsure_mapped_count	max_left_overhang	max_right_overhang
+chr12	6536593	6536683	+	0	0	1	54	16
+chr12	6537996	6538100	+	3	0	0	91	73
