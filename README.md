@@ -1,21 +1,20 @@
 This repository includes all the files that we might need for our test. 
 This reposotory has the following Folders
  
-*OutputFiles:
--Here is the output files from our arabadopsis data that are needed to run a local host on a computer. 
-The main file that you would need from here is the index.html file.
-
-
 *arabidopsis_singlecelldata_for_cellbrowerser:
 -This folder contains all the cell data files that we need to run the cell browerser builder. 
+
+*cells:
+This folder contains the output files of both the arabadopsis cell data and the
+ sample data.
+	-Arabodopsis output data:
+		-OutputFiles
+	-Sample output data:
+		-sample 
 
 *mini/mini:
 -This folder contains all the cell data files that are needed to run the cell broweser builder
 on the sample data
-
-*sample:
--This is the output data for our sample data. 
-The main file needed here is the index.html file.
 
 **************HOW TO RUN cbBuild********************************************************
 Once you have installed the cell browser viewer from the following website
