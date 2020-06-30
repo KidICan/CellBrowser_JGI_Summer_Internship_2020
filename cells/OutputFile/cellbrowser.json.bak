@@ -1,0 +1,38 @@
+{
+  "name": "OutputFile",
+  "priority": 10,
+  "tags": [
+    "smartseq2"
+  ],
+  "shortLabel": "Ara. Test",
+  "exprMatrix": "At_control_vs_auxin.dge.csv.gz",
+  "geneIdType": "auto",
+  "meta": "At_control_vs_auxin.cell_metadata.csv",
+  "enumFields": [
+    "c1_cell_id"
+  ],
+  "coords": [
+    {
+      "shortLabel": "t-SNE on WGCNA",
+      "file": "/mnt/c/Users/cholo/Desktop/Summer Files/edgar_2020/arabidopsis_singlecelldata_for_cellbrowser/Files/At_control_vs_auxin.tsne_coords.tsv",
+      "flipY": false
+    },
+    {
+      "shortLabel": "umap",
+      "colorOnMeta": "neuralCluster",
+      "file": "/mnt/c/Users/cholo/Desktop/Summer Files/edgar_2020/arabidopsis_singlecelldata_for_cellbrowser/Files/At_control_vs_auxin.umap_coords.tsv"
+    }
+  ],
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
+  "hubUrl": "http://cells.ucsc.edu/cortex-dev/hub/hub.txt",
+  "colors": "colors.tsv",
+  "showLabels": true,
+  "acronymFile": "acronyms.tsv",
+  "unit": "TPM",
+  "matrixType": "auto",
+  "hubName": "100 Genes Sample Hub",
+  "ucscDb": "hg38",
+  "bamDir": "bam",
+  "inDir": ""
+}
