@@ -1,0 +1,811 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "size": 3322636,
+      "mtime": "2020-06-25 23:49:22",
+      "fname": "/mnt/c/Users/cholo/Desktop/Summer Files/arabidopsis_singlecelldata_for_cellbrowser/Files/At_control_vs_auxin.cell_metadata.csv",
+      "md5": "411e31694c"
+    },
+    "outMatrix": {
+      "size": 21743813,
+      "mtime": "2020-06-26 00:00:24",
+      "fname": "/mnt/c/Users/cholo/Desktop/edgar_2020/OutputFile/exprMatrix.tsv.gz",
+      "md5": "2e5f0505f9"
+    },
+    "inMatrix": {
+      "size": 21647010,
+      "mtime": "2020-06-23 00:50:07",
+      "fname": "/mnt/c/Users/cholo/Desktop/Summer Files/arabidopsis_singlecelldata_for_cellbrowser/Files/At_control_vs_auxin.dge.csv.gz",
+      "md5": "d49496569b"
+    },
+    "conf": {
+      "size": 5440,
+      "mtime": "2020-06-24 19:57:40",
+      "fname": "/mnt/c/Users/cholo/Desktop/Summer Files/arabidopsis_singlecelldata_for_cellbrowser/Files/cellbrowser.conf",
+      "md5": "6c646e3d57"
+    },
+    "outMeta": {
+      "size": 1344379,
+      "mtime": "2020-06-25 23:56:44",
+      "fname": "/mnt/c/Users/cholo/Desktop/edgar_2020/OutputFile/meta.tsv",
+      "md5": "bf0b52594d"
+    },
+    "desc": {
+      "size": 2410,
+      "mtime": "2020-06-21 20:25:29",
+      "fname": "desc.conf",
+      "md5": "a9b82dcc36"
+    }
+  },
+  "sampleCount": 5607,
+  "matrixWasFiltered": true,
+  "metaFields": [
+    {
+      "name": "cell",
+      "label": "cell",
+      "type": "uniqueString",
+      "maxSize": 30,
+      "diffValCount": 5607,
+      "md5": "8ecf188ae0"
+    },
+    {
+      "name": "origident",
+      "label": "orig.ident",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Arabidopsis_6_SI-GA-F12",
+          1134
+        ],
+        [
+          "Arabidopsis_2_SI-GA-B12",
+          1085
+        ],
+        [
+          "Arabidopsis_5_SI-GA-E12",
+          932
+        ],
+        [
+          "Arabidopsis_1_SI-GA-H7",
+          573
+        ],
+        [
+          "GHUSC",
+          511
+        ],
+        [
+          "GHOOZ",
+          230
+        ],
+        [
+          "GHUSH",
+          194
+        ],
+        [
+          "Arabidopsis_7_SI-GA-G12",
+          181
+        ],
+        [
+          "Arabidopsis_4_SI-GA-D12",
+          179
+        ],
+        [
+          "Arabidopsis_8_SI-GA-H12",
+          169
+        ],
+        [
+          "GHUSB",
+          120
+        ],
+        [
+          "GHUSG",
+          103
+        ],
+        [
+          "GHOOX",
+          94
+        ],
+        [
+          "GHOOW",
+          63
+        ],
+        [
+          "Arabidopsis_3_SI-GA-G11",
+          20
+        ],
+        [
+          "GHOPA",
+          19
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 16,
+      "md5": "4ae0e6bd9e"
+    },
+    {
+      "name": "nCountRNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 4165,
+      "md5": "d2a44ef8b3"
+    },
+    {
+      "name": "nFeatureRNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3406,
+      "md5": "1d386f5091"
+    },
+    {
+      "name": "percentmt",
+      "label": "percent.mt",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 3706,
+      "md5": "0c5f634c5f"
+    },
+    {
+      "name": "percentchl",
+      "label": "percent.chl",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 3989,
+      "md5": "fc4eee6ca3"
+    },
+    {
+      "name": "CellType",
+      "label": "Cell_Type",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Atrichoblast",
+          2090
+        ],
+        [
+          "Cortex",
+          787
+        ],
+        [
+          "Meristematic_Xylem",
+          673
+        ],
+        [
+          "Quiescent_Center",
+          313
+        ],
+        [
+          "Lateral_Root_Cap",
+          305
+        ],
+        [
+          "Endodermis",
+          291
+        ],
+        [
+          "Phloem_Pole_Pericycle",
+          266
+        ],
+        [
+          "Columella",
+          214
+        ],
+        [
+          "Trichoblast",
+          209
+        ],
+        [
+          "Maturing_Xylem",
+          185
+        ],
+        [
+          "Protophloem",
+          101
+        ],
+        [
+          "Companion_Cells",
+          89
+        ],
+        [
+          "Pericycle",
+          56
+        ],
+        [
+          "Phloem",
+          24
+        ],
+        [
+          "Xylem_Pole_Pericycle",
+          4
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 15,
+      "md5": "a27399153a"
+    },
+    {
+      "name": "sigCellTypes",
+      "label": "sigCell_Types",
+      "type": "enum",
+      "valCounts": [
+        [
+          "NA",
+          2332
+        ],
+        [
+          "Atrichoblast",
+          1198
+        ],
+        [
+          "mixed",
+          1023
+        ],
+        [
+          "Cortex",
+          437
+        ],
+        [
+          "Endodermis",
+          147
+        ],
+        [
+          "Meristematic_Xylem",
+          122
+        ],
+        [
+          "Trichoblast",
+          87
+        ],
+        [
+          "Quiescent_Center",
+          56
+        ],
+        [
+          "Columella",
+          54
+        ],
+        [
+          "Lateral_Root_Cap",
+          40
+        ],
+        [
+          "Protophloem",
+          32
+        ],
+        [
+          "Phloem_Pole_Pericycle",
+          30
+        ],
+        [
+          "Companion_Cells",
+          19
+        ],
+        [
+          "Maturing_Xylem",
+          19
+        ],
+        [
+          "Pericycle",
+          4
+        ],
+        [
+          "Xylem_Pole_Pericycle",
+          4
+        ],
+        [
+          "Phloem",
+          3
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 17,
+      "md5": "b546186bf2"
+    },
+    {
+      "name": "treatment",
+      "label": "treatment",
+      "type": "enum",
+      "valCounts": [
+        [
+          "control",
+          4542
+        ],
+        [
+          "auxin",
+          1065
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "e3442526d4"
+    },
+    {
+      "name": "nCountSCT",
+      "label": "nCount_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3241,
+      "md5": "e2c1cb0f49"
+    },
+    {
+      "name": "nFeatureSCT",
+      "label": "nFeature_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2750,
+      "md5": "885c1def69"
+    },
+    {
+      "name": "pool",
+      "label": "pool",
+      "type": "enum",
+      "valCounts": [
+        [
+          "GOBXN_10X",
+          4273
+        ],
+        [
+          "GOBXN_dropseq",
+          928
+        ],
+        [
+          "GHYAU_dropseq",
+          406
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "5f9be9f2be"
+    },
+    {
+      "name": "protocol",
+      "label": "protocol",
+      "type": "enum",
+      "valCounts": [
+        [
+          "10X",
+          4273
+        ],
+        [
+          "dropseq",
+          1334
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "623115c549"
+    },
+    {
+      "name": "samplename",
+      "label": "sample_name",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Arabidopsis thaliana - protoplast control2-Water",
+          1134
+        ],
+        [
+          "Arabidopsis thaliana - protoplast control1-Water",
+          1085
+        ],
+        [
+          "Arabidopsis thaliana - protoplast control2-SolA",
+          932
+        ],
+        [
+          "Arabidopsis thaliana - protoplast control1-SolA",
+          573
+        ],
+        [
+          "Auxin_2hr_control (control for GHUSB)",
+          511
+        ],
+        [
+          "Auxin_24hr",
+          333
+        ],
+        [
+          "Auxin_24hr_control(control for GHUSG)",
+          194
+        ],
+        [
+          "Auxin_2hr",
+          183
+        ],
+        [
+          "Arabidopsis thaliana - protoplast Auxin2-SolA",
+          181
+        ],
+        [
+          "Arabidopsis thaliana - protoplast Auxin1-Water",
+          179
+        ],
+        [
+          "Arabidopsis thaliana - protoplast Auxin2-Water",
+          169
+        ],
+        [
+          "Auxin_2hr_control (control for GHOOW)",
+          94
+        ],
+        [
+          "Arabidopsis thaliana - protoplast Auxin1-SolA",
+          20
+        ],
+        [
+          "Auxin_24hr_control(control for GHOOZ)",
+          19
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 14,
+      "md5": "23c10b4a62"
+    },
+    {
+      "name": "integratedsnnres06",
+      "label": "integrated_snn_res.0.6",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 19,
+      "md5": "c6b03be6e3"
+    },
+    {
+      "name": "seuratclusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "1",
+          699
+        ],
+        [
+          "0",
+          567
+        ],
+        [
+          "4",
+          550
+        ],
+        [
+          "14",
+          454
+        ],
+        [
+          "11",
+          350
+        ],
+        [
+          "2",
+          330
+        ],
+        [
+          "5",
+          314
+        ],
+        [
+          "6",
+          297
+        ],
+        [
+          "3",
+          230
+        ],
+        [
+          "10",
+          225
+        ],
+        [
+          "8",
+          222
+        ],
+        [
+          "18",
+          210
+        ],
+        [
+          "19",
+          159
+        ],
+        [
+          "20",
+          127
+        ],
+        [
+          "17",
+          126
+        ],
+        [
+          "9",
+          121
+        ],
+        [
+          "16",
+          116
+        ],
+        [
+          "12",
+          113
+        ],
+        [
+          "15",
+          109
+        ],
+        [
+          "21",
+          99
+        ],
+        [
+          "7",
+          95
+        ],
+        [
+          "13",
+          94
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 22,
+      "md5": "25f837af49"
+    },
+    {
+      "name": "shulsetype",
+      "label": "shulsetype",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Non-hair cells",
+          2090
+        ],
+        [
+          "Stele",
+          1398
+        ],
+        [
+          "Cortext",
+          787
+        ],
+        [
+          "QC",
+          313
+        ],
+        [
+          "Lateral Root Meristem",
+          305
+        ],
+        [
+          "Endodermis",
+          291
+        ],
+        [
+          "Columella",
+          214
+        ],
+        [
+          "Hair cells",
+          209
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "aa9e688b9d"
+    },
+    {
+      "name": "integratedsnnres07",
+      "label": "integrated_snn_res.0.7",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 19,
+      "md5": "6bf756c18c"
+    },
+    {
+      "name": "integratedsnnres08",
+      "label": "integrated_snn_res.0.8",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 21,
+      "md5": "1060962f7d"
+    },
+    {
+      "name": "integratedsnnres09",
+      "label": "integrated_snn_res.0.9",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 22,
+      "md5": "d66b3f1d1f"
+    },
+    {
+      "name": "clusterCellType",
+      "label": "cluster.Cell_Type",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Atrichoblast",
+          1860
+        ],
+        [
+          "unknown",
+          1481
+        ],
+        [
+          "Cortex",
+          905
+        ],
+        [
+          "Meristematic_Xylem",
+          581
+        ],
+        [
+          "Endodermis",
+          325
+        ],
+        [
+          "Trichoblast",
+          230
+        ],
+        [
+          "Lateral_Root_Cap",
+          225
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "454dfc854d"
+    },
+    {
+      "name": "clustershulsetype",
+      "label": "cluster.shulsetype",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Non-hair cells",
+          1860
+        ],
+        [
+          "Stele",
+          1264
+        ],
+        [
+          "Cortext",
+          905
+        ],
+        [
+          "unknown",
+          798
+        ],
+        [
+          "Endodermis",
+          325
+        ],
+        [
+          "Hair cells",
+          230
+        ],
+        [
+          "Lateral Root Meristem",
+          225
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "c7a02adf81"
+    },
+    {
+      "name": "library",
+      "label": "library",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Arabidopsis_6",
+          1134
+        ],
+        [
+          "Arabidopsis_2",
+          1085
+        ],
+        [
+          "Arabidopsis_5",
+          932
+        ],
+        [
+          "Arabidopsis_1",
+          573
+        ],
+        [
+          "GHUSC",
+          511
+        ],
+        [
+          "GHOOZ",
+          230
+        ],
+        [
+          "GHUSH",
+          194
+        ],
+        [
+          "Arabidopsis_7",
+          181
+        ],
+        [
+          "Arabidopsis_4",
+          179
+        ],
+        [
+          "Arabidopsis_8",
+          169
+        ],
+        [
+          "GHUSB",
+          120
+        ],
+        [
+          "GHUSG",
+          103
+        ],
+        [
+          "GHOOX",
+          94
+        ],
+        [
+          "GHOOW",
+          63
+        ],
+        [
+          "Arabidopsis_3",
+          20
+        ],
+        [
+          "GHOPA",
+          19
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 16,
+      "md5": "1ed1427b4d"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "seurat_clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "t-SNE on WGCNA",
+      "md5": "7e253547d2",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "umap",
+      "colorOnMeta": "neuralCluster",
+      "md5": "59c91214c4",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "name": "OutputFile",
+  "shortLabel": "Ara. Test",
+  "priority": 10,
+  "tags": [
+    "smartseq2"
+  ],
+  "clusterField": "seurat_clusters",
+  "hubUrl": "http://cells.ucsc.edu/cortex-dev/hub/hub.txt",
+  "showLabels": true,
+  "ucscDb": "hg38",
+  "unit": "TPM",
+  "md5": "c2af7a48f8"
+}
