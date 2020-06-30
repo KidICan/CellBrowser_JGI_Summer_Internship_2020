@@ -1,8 +1,0 @@
-{
-  "downloads": "This is downloads.html. It should include links to the files expeMatrix.tsv.gz and\nmeta.tsv, as these files have always been produced during the conversion procedure.\n",
-  "abstract": "This is the file summary.html. You can include an abstract about the aim of this dataset here\nwith links to the paper.\n\nThis dataset is based on cortex-dev, but it has just 100 genes in the expression matrix.\n",
-  "methods": "This is the file methods.html. You can modify it to describe how this dataset was created.\n",
-  "coordFiles": [
-    "tSNE_on_WGCNA.coords.tsv.gz"
-  ]
-}
