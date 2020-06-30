@@ -12,6 +12,18 @@
       "shortLabel": "Ara. Test",
       "md5": "711fa8174f",
       "name": "OutputFile"
+    },
+    {
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "tags": [
+        "smartseq2"
+      ],
+      "sampleCount": 4261,
+      "shortLabel": "CellBrowser 100-genes demo",
+      "md5": "5c011ddb13",
+      "name": "sample"
     }
   ],
   "name": "",
