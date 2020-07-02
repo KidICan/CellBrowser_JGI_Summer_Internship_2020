@@ -1,10 +1,14 @@
-##This repository includes all the files that we might need for our test.## 
-##This reposotory has the following Folders##
+## This repository includes all the files that we might need for our test.
  
-###arabidopsis_singlecelldata_for_cellbrowerser:###
+## This reposotory has the following Folders
+
+ 
+### arabidopsis_singlecelldata_for_cellbrowerser:
+
 -This folder contains all the cell data files that we need to run the cell browerser builder. 
 
-###cells:###
+## cells:
+
 This folder contains the output files of both the arabadopsis cell data and the
  sample data.
 	-Arabodopsis output data:
@@ -12,21 +16,23 @@ This folder contains the output files of both the arabadopsis cell data and the
 	-Sample output data:
 		-sample 
 
-###mini/mini:###
+### mini/mini:
+
 -This folder contains all the cell data files that are needed to run the cell broweser builder
 on the sample data
 
-#HOW TO RUN cbBuild#
+# HOW TO RUN cbBuild
 
 Once you have installed the cell browser viewer from the following website
 https://cellbrowser.readthedocs.io/installation.html and have python installed on your computer
 running the cell browerser is quite simple. 
 
-##STEP 1: THE WORKING DIRECTORY##
+## STEP 1: THE WORKING DIRECTORY
+
 Make sure that in your terminal, your working directory is the directory that contains all the 
 cell data files
 
-##STEP 2: THE CELLBROWERSER.CONFIG FILE##
+## STEP 2: THE CELLBROWERSER.CONFIG FILE
 The most important part for this process is to have the cellbrowser.config in the same directory 
 as your cell data files. 
 If you do not have the cellbrowers.config file in the correct working directory
@@ -38,7 +44,7 @@ This will let you edit the cellbrowser.config file to work for your data. Once h
 specified in the .config file and save it.
 
 
-##STEP 3: RUNNING cbBuild##
+## STEP 3: RUNNING cbBuild
 To run the the command you must have the follwing field to the comand:
 
 cbBuild -o ~/public_html/cells/ -p 8888
