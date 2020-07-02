@@ -1,0 +1,10 @@
+{
+  "title": "Sample Dataset description",
+  "abstract": "Please edit desc.conf to change this text or comment out the abstract= line and create abstract.html in the same directory as desc.conf",
+  "methods": "Please edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf",
+  "inDir": "",
+  "coordFiles": [
+    "tSNE_on_WGCNA.coords.tsv.gz",
+    "umap.coords.tsv.gz"
+  ]
+}

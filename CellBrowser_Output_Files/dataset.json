@@ -1,0 +1,31 @@
+{
+  "shortLabel": "All Datasets",
+  "datasets": [
+    {
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "tags": [
+        "smartseq2"
+      ],
+      "sampleCount": 5607,
+      "shortLabel": "Ara. Test",
+      "md5": "711fa8174f",
+      "name": "OutputFile"
+    },
+    {
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "tags": [
+        "smartseq2"
+      ],
+      "sampleCount": 4261,
+      "shortLabel": "CellBrowser 100-genes demo",
+      "md5": "5c011ddb13",
+      "name": "sample"
+    }
+  ],
+  "name": "",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        "
+}
