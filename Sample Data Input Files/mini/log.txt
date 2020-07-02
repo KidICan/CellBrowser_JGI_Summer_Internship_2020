@@ -1,0 +1,2 @@
+samtools view ../../../cbData/ucsc/cortex-dev/hg38Hisat2Sorted/S222-G8.bam '12:6534517-6538375' -b > bam/S222-G8.bam
+samtools view ../../../cbData/ucsc/cortex-dev/hg38Hisat2Sorted/S222-C6.bam '12:6534517-6538375' -b > bam/S222-C6.bam
