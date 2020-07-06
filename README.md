@@ -1,13 +1,13 @@
-## This repository includes all the files that we might need for our test.
+# This repository includes all the files that we might need for our test.
  
 ## This reposotory has the following Folders
 
  
-### arabidopsis_singlecelldata_for_cellbrowerser:
+### Arabidopsis_Data_Input_File:
 
 -This folder contains all the cell data files that we need to run the cell browerser builder. 
 
-## cells:
+## CellBroweser_Output_Files:
 
 This folder contains the output files of both the arabadopsis cell data and the
  sample data.
@@ -16,7 +16,7 @@ This folder contains the output files of both the arabadopsis cell data and the
 	-Sample output data:
 		-sample 
 
-### mini/mini:
+### Sample_Data_Input_Files:
 
 -This folder contains all the cell data files that are needed to run the cell broweser builder
 on the sample data
